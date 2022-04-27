@@ -1,6 +1,6 @@
 clear all, close all, clc
 
-A=imread('../DATA/dog.jpg');
+A=imread('./DATA/dog.jpg');
 X=double(rgb2gray(A));  % Convert RBG to gray, 256 bit to double.
 nx = size(X,1); ny = size(X,2);
 
@@ -31,3 +31,4 @@ xlabel('r')
 ylabel('Cumulative Energy')
 xlim([-50 1550]); ylim([0 1.1])
 set(gcf,'Position',[100 100 550 240])
+
