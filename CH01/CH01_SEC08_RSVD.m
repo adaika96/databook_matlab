@@ -1,5 +1,5 @@
 clear all, close all, clc
-A=imread('jupiter.jpg');
+A=imread('dog.jpg');
 X=double(rgb2gray(A));
 [U,S,V] = svd(X,'econ');    % Deterministic SVD
 

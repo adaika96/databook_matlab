@@ -1,6 +1,6 @@
 clear all, close all, clc
 
-load ../DATA/allFaces.mat
+load ./DATA/allFaces.mat
 
 allPersons = zeros(n*6,m*6);
 count = 1;
